@@ -7,7 +7,7 @@ body{
 h1 {
 	width: rgba (8, 141, 165, );
 	margin-left: 100px;
-	text-shadow: 10px 5px 8px rgba(0, 0, 0, 0.6)
+	text-shadow: 10px 5px 8px rgba(0, 0, 0, 0.6);
 }
 
 .Container {
@@ -39,7 +39,7 @@ h1 {
 	font-weight: 900;
 	text-align: center;
 	margin: 0;
-	text-shadow:2px 7px 4px rgba(0,0,0, 0.8)
+	text-shadow:2px 7px 4px rgba(0,0,0, 0.8);
 	
 }
 .squares:nth-child(1)
@@ -60,9 +60,11 @@ h1 {
 }
 	/* Hover, translate & transform effects*/
 
-.Container .squares:nth-child(-n+4) hover{
-       background-image: url("../Images/smileyface1.png");
-	transform: scale(.5);
+.Container .squares:nth-child(-n+4):hover{
+	
+
+     background-image: url("../Images/smileyface1.png");
+	 transform: scale(.5);
 	animation-name: race;
 	animation-duration: 2.5s;
 	animation-iteration-count: infinite;
@@ -70,6 +72,7 @@ h1 {
 }	
 .squares:nth-child(1):hover
 {background: #13b4ff;
+  
 }
 .squares:nth-child(2):hover
 {
@@ -90,7 +93,6 @@ h1 {
 }
 
 	/*Animation Effect*/
-
 @keyframes race {
 	0%, 100% {
 		transform: translateY(0px);
@@ -100,4 +102,6 @@ h1 {
 		transform: translateY(330px);
 	}
 }
+	
+
 	
